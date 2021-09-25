@@ -1,0 +1,10 @@
+demo_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      server: localhost:3306
+      port: 3306
+      schema: station
+      username: root
+      password: data@OSQL2021
